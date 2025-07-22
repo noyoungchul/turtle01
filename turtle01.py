@@ -1,6 +1,11 @@
 import turtle
 import math
 
+#거리계산 함수 구현
+def distance(x1, y1, x2, y2):
+    distance = math.sqrt((x2 - x1) **2 + (y2 - y1) **2)
+    return distance
+
 # 스크린 생성
 s = turtle.getscreen()
 
@@ -28,6 +33,7 @@ t.goto(160,160)
 
 #목표도착
 t.goto(350,350)
+
 
 
 
